@@ -1,0 +1,134 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display";
+}
+
+main {
+  background: url(./order-summary-component-main/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 340px;
+  border-radius: 20px;
+}
+
+.header-img {
+  background-color: white;
+  border-radius: 15px 15px 0 0;
+}
+
+.header-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 0 0 15px 15px;
+  text-align: center;
+}
+
+.header h1 {
+  padding-bottom: 20px;
+  color: hsl(223, 47%, 23%);
+  font-size: 25px;
+}
+
+.header p {
+  padding-bottom: 20px;
+  color: hsl(223, 47%, 23%);
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsla(225, 100%, 94%, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.flex-plan {
+  display: flex;
+  align-items: center;
+}
+
+.price-img img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.pricing {
+  text-align: left;
+}
+
+.pricing h3 {
+  font-size: 15px;
+}
+
+.pricing p {
+  color: hsl(223, 47%, 23%);
+  opacity: 0.7;
+}
+
+.price-link a {
+  color: hsl(245, 75%, 52%);
+  font-size: 15px;
+}
+
+.price-link a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.card-button button {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 15px hsl(245, 75%, 52%);
+  transition: 0.5s;
+  font-size: 16px;
+}
+
+.card-button button:hover {
+  opacity: 0.7;
+}
+
+.card-button a {
+  text-decoration: none;
+}
+
+.card-button a:hover {
+  font-weight: 900;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

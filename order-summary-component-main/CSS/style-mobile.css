@@ -1,0 +1,9 @@
+@media (max-width: 375px) {
+  main {
+    background: url(./order-summary-component-main/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 30px;
+    background-color: hsl(225, 100%, 94%);
+  }
+}
